@@ -14,7 +14,7 @@ register(StyleDictionary, {
 });
 
 const sd = new StyleDictionary({
-  source: ['studio.json'],
+  source: ['tokens.json'],
   preprocessors: ['tokens-studio'],
   platforms: {
     css: {
