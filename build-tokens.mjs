@@ -19,7 +19,7 @@ const sd = new StyleDictionary({
   platforms: {
     css: {
       buildPath: 'build/css/',
-      prefix: 'sd',
+      prefix: 'rd',
       transformGroup: 'tokens-studio',
       transforms: ['name/kebab'],
       files: [
