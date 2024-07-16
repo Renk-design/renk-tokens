@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "@tokens-studio/sd-transforms": "^0.16.1",
+    "@zip.js/zip.js": "^2.7.45",
     "style-dictionary": "^4.0.0-prerelease.39"
   },
-  "description": ""
+  "description": "tokens for youtube video"
 }
