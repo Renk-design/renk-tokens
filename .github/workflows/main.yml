@@ -12,9 +12,8 @@ jobs:
         with:
           node-version: latest
           registry-url: 'https://npm.pkg.github.com'
-      - run: npm i @zip.js/zip.js
       - run: npm init -y && npm install style-dictionary@prerelease @tokens-studio/sd-transforms
-      - run: node build-tokens.mjs
+      - run: node build-tokens.mcjs
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update Tokens
